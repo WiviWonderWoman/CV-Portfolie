@@ -1,3 +1,4 @@
+/* Start without margin and padding, setting colors */
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +6,8 @@ body {
     color: cornsilk;
     font-family: sans-serif;
 }
+
+/*Settings for all the sematic elements*/
 header, nav, article, footer {
     width: 80%;
     margin: auto;
@@ -22,7 +25,11 @@ header, footer {
 header {
     height: 5%; 
 }
+footer {
+    margin-bottom: 20px;
+}
 
+/*Headings*/
 h1{ 
     margin: auto;   
     font-family: 'Tangerine', cursive;
@@ -30,6 +37,18 @@ h1{
     justify-content: center;
     display: flex; 
 }
+h2 {
+    font-family: 'Amatic SC';
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+h3 {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/*media rules, large screens will show tables side by side*/
 @media only screen and (min-width: 1000px) {
     #education, #workExp {
         width: 50%;
@@ -41,6 +60,8 @@ h1{
     }
    
 }
+
+/*media rules for h1 size on smaller screens*/
  @media only screen and (max-width: 600px) {
     h1 {
         font-size: 3em;
@@ -51,18 +72,16 @@ h1{
         font-size: 2em;
     }
 } 
-h2 {
-    font-family: 'Amatic SC';
-    font-size: 2em;
-    text-decoration: none;
-    text-align: center;
+
+/*round image, as a block elemant*/
+img {
+    display: block;
+    margin: auto;
+    border: cornsilk solid 2px;
+    border-radius: 50%;
 }
 
-h3 {
-    font-family: sans-serif;
-    text-decoration: none;
-}
-
+/*Styling tables, dotted border, collapse border */
 table {
     width: 80%;
     margin: auto;
@@ -71,58 +90,74 @@ table {
     font-size: 1.2em;
     text-align: center;
 }
-
 table,td {
     border:  rgb(44, 46, 46) dotted;
     border-collapse: collapse;
 }
 
-img {
-    display: block;
-    margin: auto;
-    border: cornsilk solid 2px;
-    border-radius: 50%;
+/*italic*/
+span {
+    font-style: italic;
+    font-weight: lighter;
+}
+/*icons*/
+i {
+    font-size: 3ex;
+    font-weight: lighter;
+}
+/*smaler text for copyright*/
+#copy {
+    font-size: 10px;
+    text-align: center;
+}
+/*almost like a logo*/
+#copy  span {
+    font-family: 'Tangerine', cursive;
+    font-size: x-large;
 }
 
+/*Flexbox settings, center*/
 .flex-container{
     display: flex; 
     justify-content: center;
 }
+/*unordered list, flex, wrap*/
 .flex-container ul {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
+/*list items, grow, no bulletpoints*/  
 .flex-container ul li {
     flex-grow: 1;
     list-style: none;
-}   
+} 
+/*buttons*/  
 .flex-container button{
     margin: 5px;
     border: cornsilk solid 2px;
     border-radius: 10%;
     background-color: rgb(38, 39, 41);
 }
+/*changes buttons when hoover*/ 
 .flex-container ul li button:hover {
     background-color: cornsilk;
 }
+/*link text, color, no underline*/
 .flex-container a {
     color: cornsilk;
     font-family: 'Amatic SC';
     font-size: 2em;
     text-decoration: none;
 }
+/*changes link text when hoover*/
 .flex-container a:hover {
     color: black;
 }
-
+/*Images, rouded corners, flex, wrap*/
 .flex-container img {
     display: flex;
     flex-wrap: wrap;
     margin: 10px auto;
     border-radius: 25%;
-}
-i {
-    font-size: 5ex;
-    font-weight: lighter;
 }
