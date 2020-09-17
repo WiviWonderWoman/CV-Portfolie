@@ -3,98 +3,85 @@ body {
     padding: 0;
     background-color: rgb(78, 84, 84);
     color: cornsilk;
+    font-family: sans-serif;
 }
-header {
-    display: flex; 
-    justify-content: center;
+header, nav, article, footer {
     width: 80%;
     margin: auto;
-    
+    margin-top: 20px;
     border: cornsilk solid 1px;
     border-radius: 10px;
-    height: 140px;
     background-color: black;
-    align-items: stretch;
+}
+article, footer { 
+    padding: 10px;
+}
+header, footer {
+    justify-content: center;
+}
+header {
+    height: 5%; 
 }
 
 h1{ 
     margin: auto;   
     font-family: 'Tangerine', cursive;
-    font-size: 90px;
+    font-size: 5em;
     justify-content: center;
     display: flex; 
 }
-@media only screen and (max-width: 700px) {
-    header {
-        height: 100px;
+@media only screen and (min-width: 1000px) {
+    #education, #workExp {
+        width: 50%;
+       float: left;
+       margin-bottom: 20px;
     }
+    #volunteering {
+        clear: both;
+    }
+   
+}
+ @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 70px;
+        font-size: 3em;
     }
 }
-@media only screen and (max-width: 550px) {
-    header {
-        height: 80px;
-    }
+@media only screen and (max-width: 360px) {
     h1 {
-        font-size: 50px;
+        font-size: 2em;
     }
-}
-@media only screen and (max-width: 375px) {
-    header {
-        height: 60px;
-    }
-    h1 {
-        font-size: 40px;
-    }
+} 
+h2 {
+    font-family: 'Amatic SC';
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
 }
 
-article { 
+h3 {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+table {
     width: 80%;
     margin: auto;
-    padding: 20px;
-    border: cornsilk solid 1px;
-    border-radius: 10px;
-    background-color: black;
-}
-table {
-    width: 100%;
     color: cornsilk;
     font-family: 'Amatic SC';
     font-size: 1.2em;
     text-align: center;
 }
+
 table,td {
     border:  rgb(44, 46, 46) dotted;
     border-collapse: collapse;
 }
-h2 {
-    color: cornsilk;
-    font-family: 'Amatic SC';
-    font-size: xx-large;
-    text-decoration: none;
-    text-align: center;
-}
-h3 {
-    color: cornsilk;
-    font-family: 'Amatic SC';
-    font-size: x-large;
-    text-decoration: none;
-    text-align: center;
-}
-p {
-    color: cornsilk;
-    font-family: sans-serif;
-    /* font-size: xx-large;
-    text-decoration: none; */
-}
+
 img {
     display: block;
     margin: auto;
     border: cornsilk solid 2px;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
 }
 
 .flex-container{
@@ -102,42 +89,40 @@ img {
     justify-content: center;
 }
 .flex-container ul {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
   }
-.flex-container ul li{
-    display: flex;
+.flex-container ul li {
+    flex-grow: 1;
     list-style: none;
-    justify-content: center;
-}
+}   
 .flex-container button{
+    margin: 5px;
     border: cornsilk solid 2px;
     border-radius: 10%;
-    background-color: black;
-    width: 200px;
-    margin: 10px;
+    background-color: rgb(38, 39, 41);
+}
+.flex-container ul li button:hover {
+    background-color: cornsilk;
 }
 .flex-container a {
     color: cornsilk;
     font-family: 'Amatic SC';
-    font-size: xx-large;
+    font-size: 2em;
     text-decoration: none;
 }
+.flex-container a:hover {
+    color: black;
+}
+
 .flex-container img {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
-    justify-content: center;
-    width: auto;
-    height: auto;
+    margin: 10px auto;
     border-radius: 25%;
 }
-footer {
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    border: cornsilk solid 1px;
-    border-radius: 10px;
-    background-color: black;
+i {
+    font-size: 5ex;
+    font-weight: lighter;
 }
