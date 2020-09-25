@@ -1,5 +1,18 @@
 'use strict';
+document.getElementById('Presentation').addEventListener('click', function(){
+    document.getElementById('content'). innerHTML = `<h2>Presentation</h2>
 
+    <div id="profilPic">
+        <img src="./Profilbild-200.jpg" alt="photo of me" >
+    </div>
+    
+    <h3>Välkommen!</h3>
+    
+    <p>Kul att du hittade hit. Mitt namn är Wivianne Grapenholt. Jag är född 1975, uppvuxen i Helsingborg, numera bosatt i Höganäs. Här nedanför försöker jag ge en bild av vem jag är och mot slutet ska jag summera och förklarar mitt smått kaxiga användarnamn WiviWonderWoman.</p>
+    <p>Efter många år av att lägga all min energi och tid på att som ensamstående få min och mina fem barns neurodivergenta vardag att gå runt så är jag nu framme vid en milstolpe i mitt liv.</p>
+    <p><em>Äntligen</em> vet jag vad jag vill bli när jag blir stor, eller i alla fall inom vilken bransch.</p>
+    <p>Jag får ofta höra att jag är bra på att: tänka utanför boxen, se detaljer, tydliggörande layout, formulera mig i skrift och vara kreativ.</p>`
+});
 
 
 document.getElementById('edu').addEventListener('click', function(){
