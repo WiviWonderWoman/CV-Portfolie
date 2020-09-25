@@ -18,22 +18,22 @@
     <!--Navigation, flexbox, unordered list, buttons with links on my page-->
     <nav class="flex-container">
             <ul>
-                <li><button><a href="#presentation">presentation</a></button></li>
-                <li><button><a href="#education">utbildning</a></button></li>
-                <li><button><a href="#workExp">arbete</a></button></li>
-                <li><button><a href="#volunteering">ideellt</a></button></li>
-                <li><button><a href="#hobbies">intressen</a></button></li>
-                <li><button><a href="#sum">summering</a></button></li>
+                
+                <li><button id="edu">utbildning</button></li>
+                <li><button id="work">arbete</button></li>
+                <li><button id="ideellt">ideellt</button></li>
+                <li><button id="hobbies">intressen</button></li>
+                <li><button id="sum">summering</button></li>
+                <li><button id="portfolio">portfolio</button></li>
                 <li><button><a href="#contact">kontakt</a></button></li>
             </ul>
     </nav>
 
     <!--Content-->
     <article>
-
+      
         <!--Div for content, id can be used in future uppgrades with JavaScript-->
-        <div id="presentation">
-
+        <div id="content">
             <h2>Presentation</h2>
 
             <div id="profilPic">
@@ -47,128 +47,11 @@
             <p><em>Äntligen</em> vet jag vad jag vill bli när jag blir stor, eller i alla fall inom vilken bransch.</p>
             <p>Jag får ofta höra att jag är bra på att: tänka utanför boxen, se detaljer, tydliggörande layout, formulera mig i skrift och vara kreativ.</p>
 
-        </div>
-
-        <!--Div for content, id can be used in future uppgrades with JavaScript-->
-        <div id="education">
-
-            <h2>Utbildningar</h2>
-            <!--Table for displaying data about education-->
-            <table>
-                <tr>
-                    <td>Vård & omsorg</td>
-                    <td>Petri Vårdgymnasium</td>
-                    <td>1992</td>
-                    <td>1993</td>
-                </tr>
-                <tr>
-                    <td>Koplettering, tredje året</td>
-                    <td>Komvux</td>
-                    <td colspan="2">2006</td>
-                </tr>
-                <tr>
-                    <td>Larmtekninker</td>
-                    <td>Lernia</td>
-                    <td>avbruten</td>
-                    <td>2008</td>
-                </tr>
-                <tr>
-                    <td>Programmering 1</td>
-                    <td rowspan="3">Hermods</td>
-                    <td rowspan="3" colspan="2">2020</td>
-                </tr>
-                <tr>
-                    <td>Matematik 2a</td>
-                </tr>
-                <tr>
-                    <td>Webbutveckling 1</td>
-                </tr>
-            </table>
-        </div>
-
-        <!--Div for content, id can be used in future uppgrades with JavaScript-->
-        <div id="workExp">
-
-            <h2>Arbetslivserfarenhet</h2>
-            <!--Table for displaying data about work-->
-            <table>
-                <tr>
-                    <td>Labratoriediskare</td>
-                    <td>KM Labratorierna AB</td>
-                    <td>1990</td>
-                    <td>1991</td>
-                </tr>
-                <tr>
-                    <td>Industriarbetare</td>
-                    <td>Höganäs Keramik AB</td>
-                    <td>1998</td>
-                    <td>2004</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">Undersköterska</td>
-                    <td>Östra Göinge Kommun</td>
-                    <td colspan="2">2005</td>
-                </tr>
-                <tr>
-                    <td>Markaryds kommun</td>
-                    <td colspan="2">2007</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">Lokalvårdare</td>
-                    <td>Tydingesjöns Camping</td>
-                    <td colspan="2">2011</td>
-                </tr>
-                <tr>
-                    <td>Sans & Balans</td>
-                    <td>2015</td>
-                    <td>2016</td>
-                </tr>
-            </table>
-
-        </div>
-
-        <!--Div for content, id can be used in future uppgrades with JavaScript-->
-        <div id="volunteering">
-
-            <h2>Ideella Uppdrag</h2>
             
-            <p>Som ensamstående förälder till fem barn (födda 1996, 1999, 2000, 2006 samt 2008), nästan alla har vi olika grad av funktionsvarianter så är jag van att ha många bollar i luften. Jag brukar lite skämtsamt säga att jag har många bisysslor: specialpedagog, samordnare, metodhandledare, debattör, sekreterare, dietist, arbetsterapeut, medlare, processhandledare, jurist, ekonomiassistent och städerska… 
-                Jag har genom åren gått alla patient- och anhörigutbildningar, alla ålders kategorier, som Region Skåne erbjuder för angående adhd och autism. Vilket har gett mig mycket kunskap i olika strategier för både kognitiva och exekutiva svårigheter och på köpet om hur hjärnan fungerar i allmänhet.</p>
-            <p>Jag har varit aktiv inom <b>Hyresgästföreningen</b> sedan 2013 och genom åren har jag hunnit med: Kurser - Styrelseutbildning, både ordförande och sekreterare samt Valberednings- och Förhandlingsdelegat-utbildning. Förtroendeuppdrag - på Lokalnivå (kvarter): Ordförande 2013 – 2019 och numera Husombud. Och på kommunalnivå: Styrelseledamot sedan 2015, Sekreterare sedan 2017 och Förhandlingsdelegat för både allmännytta och privata hyresvärdar i 2 år.</p>
-            <p>Jag sitter i <b>Attention</b> Helsingborg-Ängelholms styrelse sedan 2 år och nyligen tagit över sekreterarrollen även här.</p>
-            <p>Jag är mentor i en privat Facebook grupp på över 500 medlemmar som drivs av en entreprenör för: <span> "Zero Resistance Planeringsmetod ger dig ett kognitivt stöd i vardagen för att ta kontroll över din dag och nå dina mål, med kreativ frihet för individuell anpassning.” </span> Där jag får möjlighet att stötta och inspirera andra till personligutveckling. Det är genom just <b>Zero Resistence Planner</b>  jag har kommit till insikt med vad jag vill i livet. Jag har lärt mig att sätta upp och nå SMART mål genom att använda bland annat Prioriterings matrix, Kanban och timeboxing i min vardag.</p>
+
+        </div>
+
         
-        </div>
-
-        <!--Div for content, id can be used in future uppgrades with JavaScript-->
-        <div id="hobbies">
-            <h2>Intressen</h2>
-            <p>Jag brinner för att sprida kunskap och motverka alla former av diskriminering och exkludering i samhället. Varmast om hjärtat ligger feminism och ableism (funkofobi)och i synnerhet neuropsykiatriska-funktionsvarianter. Jag älskar att lära mig nya saker och delar gärna med mig av min kunskap till min omgivning.</p>
-            <p>Att skapa med garn/textil är en passion och på senare tid har det blivit mycket virkande. Inte efter färdiga mönster utan jag skapar på frihand. Här ser du några exempel. De två första bilderna är avbilder av min äldsta dotter och hennes man. Jag tillverkade dom till deras bröllop sommaren 2019. Den sista bilden föreställer min äldsta son när han tog studenten 2020, restaurang och livsmedel. Är du intresserad av att se mer så är du välkommen att kolla på Instagram.</p>    
-
-            <!--Div, flexbox for displaying images-->
-            <div id="hobbyPic" class="flex-container">
-                <ul>
-                    <li><img src="./EbbaSimon.jpg" alt="photo of my daughter and her husband, as crocheted dolls with national costume " ></li>
-                    <li><img src="./Brudparet.jpg" alt="photo of my daughter and her husband, as crocheted dolls with wedding outfits " ></li>
-                    <li><img src="./Kock.jpg" alt="photo of my son, as a crocheted doll with chef outfit" ></li>
-                </ul>
-            </div>
-
-        </div>
-
-        <!--Div for content, id can be used in future uppgrades with JavaScript-->
-        <div id="sum">
-
-            <h2>Summering</h2>
-
-            <p>Jag har under många år haft en självkänsla långt under genomsnittet, både på grund av yttre och inre omständigheter. De senaste åren har jag jobbat hårt med min personliga utveckling, självbild och självförtroende. Jag har reflekterat, korrigerat och balanserat mig själv och mitt liv. Jag försöker strunta i jantelagen så numera kommer jag på mig själv att vara stolt över vem jag är och vad jag åstadkommer. Jag har fått höra av min omgivning att jag är en ”super-mamma” som fixar allt, att jag är bra på många olika saker och att jag överraskar med mina kunskaper inom vitt spridda områden.</p>
-            <p> Som en positiv affirmation till mig själv började jag anta användarnamnet WiviWonderWoman i olika spelrelaterade sammanhang. När jag började luta åt att utbilda mig till webbutvecklare insåg jag att det faktiskt är en alternativ akronym till World Wide Web vilket jag tycker är lite småkul. Dessutom har jag en escape-väg de gånger det känns för kaxigt genom att referera till: ”wonder woman i wonder where i left my keys”. Som anspelar på min tankspriddhet, glömska och ad(h)d diagnos.</p>
-        
-        </div>
-        <div class="flex-container" id="github">
-            
-        </div>
 
     </article>
 
@@ -179,7 +62,8 @@
         <div class="flex-container">
 
             <ul>
-                <li><button><a href="mailto:w.grapenholt@gmail.com" target="_blank"><i class="fas fa-at"></i></a></button></li>
+                
+                <li><button><a href="mailto:w.grapenholt@gmail.com" target=":_blank"><i class="fas fa-at"></i></a></button></li>
                 <li><button><a href="https://github.com/WiviWonderWoman" target="_blank"><i class="fab fa-github-alt"></i></a></button></li>
                 <li><button><a href="https://www.instagram.com/wivianne_grapenholt/" target="_blank"><i class="fab fa-instagram"></i></a></button></li>
                 <li><button><a href="https://www.facebook.com/wivi.grapenholt" target="_blank"><i class="fab fa-facebook"></i></a></button></li>
