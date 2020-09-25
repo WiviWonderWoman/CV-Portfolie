@@ -11,8 +11,8 @@ function gitHub(data) {
     arrGit = data;
     console.log(arrGit);
     arrGit.forEach(element => {
-        // document.getElementById('github').insertAdjacentHTML ("afterbegin", `<button id="knapp"></button>`);
-        document.getElementById('github').insertAdjacentHTML("afterbegin",`<a href=`+element.html_url+`target="_blank">`+element.name+`</a>`)
+        document.getElementById('github').insertAdjacentHTML ("afterbegin", `<button id="knapp"></button>`);
+        document.getElementById('knapp').insertAdjacentHTML("afterbegin",`<a href="`+element.html_url+`"target="_blank">`+element.name+`</a>`)
         
     }); 
 }  
