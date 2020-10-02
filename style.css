@@ -8,16 +8,17 @@ body {
 }
 /*Settings for all the sematic elements*/
 header, nav, article, footer {
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 20px;
     border: cornsilk solid 1px;
     border-radius: 10px;
     background-color: black;
-    padding: 30px;
+    padding: 20px;
 }
 #content {
-    padding: 30px;
+    margin: auto;
+    padding: 10px;
 }
 
 header, footer {
@@ -28,7 +29,6 @@ header {
 }
 footer {
     margin-bottom: 20px;
-    padding: 10px;
 }
 /*Headings*/
 h1{ 
