@@ -6,7 +6,6 @@ body {
     color: cornsilk;
     font-family: sans-serif;
 }
-
 /*Settings for all the sematic elements*/
 header, nav, article, footer {
     width: 80%;
@@ -28,7 +27,6 @@ header {
 footer {
     margin-bottom: 20px;
 }
-
 /*Headings*/
 h1{ 
     margin: auto;   
@@ -43,11 +41,6 @@ h2 {
     text-decoration: none;
     text-align: center;
 }
-h3 {
-    font-family: sans-serif;
-    text-decoration: none;
-}
-
 /*media rules, large screens will show tables side by side*/
 @media only screen and (min-width: 1000px) {
     #education, #workExp {
@@ -58,9 +51,7 @@ h3 {
     #volunteering {
         clear: both;
     }
-   
 }
-
 /*media rules for h1 size on smaller screens*/
  @media only screen and (max-width: 600px) {
     h1 {
@@ -72,7 +63,6 @@ h3 {
         font-size: 2em;
     }
 } 
-
 /*round image, as a block elemant*/
 img {
     display: block;
@@ -80,7 +70,6 @@ img {
     border: cornsilk solid 2px;
     border-radius: 50%;
 }
-
 /*Styling tables, dotted border, collapse border */
 table {
     width: 80%;
@@ -95,7 +84,6 @@ table,td {
     border:  rgb(44, 46, 46) dotted;
     border-collapse: collapse;
 }
-
 /*italic*/
 span {
     font-style: italic;
@@ -116,7 +104,6 @@ i {
     font-family: 'Tangerine', cursive;
     font-size: x-large;
 }
-
 /*Flexbox settings, center*/
 .flex-container{
     display: flex; 
@@ -127,7 +114,7 @@ i {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-  }
+}
 /*list items, grow, no bulletpoints*/  
 .flex-container ul li {
     flex-grow: 1;

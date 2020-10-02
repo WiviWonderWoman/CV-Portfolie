@@ -1,79 +1,68 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WiviWonderWoman</title>
-    <!--Links to Google Fonts, style sheet and font awsome-->
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Tangerine:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/fd54308f64.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <h1>WiviWonderWoman</h1>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WiviWonderWoman</title>
+        <!--Links to Google Fonts, style sheet and font awsome-->
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/fd54308f64.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1>WiviWonderWoman</h1>
+        </header>
+        <!--Navigation, flexbox, unordered list, buttons with links on my page-->
+        <nav class="flex-container">
+                <ul>
+                    <li><button id="Presentation">Presentation</button></li>
+                    <li><button id="edu">utbildning</button></li>
+                    <li><button id="work">arbete</button></li>
+                    <li><button id="ideellt">ideellt</button></li>
+                    <li><button id="hobbies">intressen</button></li>
+                    <li><button id="sum">summering</button></li>
+                    <li><button id="portfolio">portfolio</button></li>
+                    <li><button id="contact">kontakt</button></li>
+                </ul>
+        </nav>
 
-    <!--Navigation, flexbox, unordered list, buttons with links on my page-->
-    <nav class="flex-container">
-            <ul>
-                <li><button id="Presentation">Presentation</button></li>
-                <li><button id="edu">utbildning</button></li>
-                <li><button id="work">arbete</button></li>
-                <li><button id="ideellt">ideellt</button></li>
-                <li><button id="hobbies">intressen</button></li>
-                <li><button id="sum">summering</button></li>
-                <li><button id="portfolio">portfolio</button></li>
-                <li><button id="contact">kontakt</button></li>
-            </ul>
-    </nav>
+        <!--Content-->
+        <article>
 
-    <!--Content-->
-    <article>
-      
-        <!--Div for content, id can be used in future uppgrades with JavaScript-->
-        <div id="content">
-            <h2>Presentation</h2>
+            <!--Div for content, id can be used in future uppgrades with JavaScript-->
+            <div id="content">
 
-            <div id="profilPic">
-                <img src="./Profilbild-200.jpg" alt="photo of me" >
+                <h2>Välkommen!</h2>
+                <div id="profilPic">
+                    <img src="./Profilbild-200.jpg" alt="photo of me" >
+                </div>
+                <p>Kul att du hittade hit. Mitt namn är Wivianne Grapenholt. Jag är född 1975, uppvuxen i Helsingborg, numera bosatt i Höganäs. Här nedanför försöker jag ge en bild av vem jag är och mot slutet ska jag summera och förklarar mitt smått kaxiga användarnamn WiviWonderWoman.</p>
+                <p>Efter många år av att lägga all min energi och tid på att som ensamstående få min och mina fem barns neurodivergenta vardag att gå runt så är jag nu framme vid en milstolpe i mitt liv.</p>
+                <p><em>Äntligen</em> vet jag vad jag vill bli när jag blir stor, eller i alla fall inom vilken bransch.</p>
+                <p>Jag får ofta höra att jag är bra på att: tänka utanför boxen, se detaljer, tydliggörande layout, formulera mig i skrift och vara kreativ.</p>
+            </div>
+        </article>
+
+        <!--Footer-->
+        <footer>
+
+            <!--Div, flexbox, unordered list, icons that are links-->
+            <div class="flex-container">
+
+                <ul>
+                    <li><button><a href="mailto:w.grapenholt@gmail.com" target=":_blank"><i class="fas fa-at"></i></a></button></li>
+                    <li><button><a href="https://github.com/WiviWonderWoman" target="_blank"><i class="fab fa-github-alt"></i></a></button></li>
+                    <li><button><a href="https://www.linkedin.com/in/wivianne-grapenholt-673b701b6/" target="_blank"><i class="fab fa-linkedin"></i></a></button></li>
+                    <li><button><a href="https://www.instagram.com/wivianne_grapenholt/" target="_blank"><i class="fab fa-instagram"></i></a></button></li>
+                    <li><button><a href="https://www.facebook.com/wivi.grapenholt" target="_blank"><i class="fab fa-facebook"></i></a></button></li>
+                </ul>
             </div>
 
-            <h3>Välkommen!</h3>
-
-            <p>Kul att du hittade hit. Mitt namn är Wivianne Grapenholt. Jag är född 1975, uppvuxen i Helsingborg, numera bosatt i Höganäs. Här nedanför försöker jag ge en bild av vem jag är och mot slutet ska jag summera och förklarar mitt smått kaxiga användarnamn WiviWonderWoman.</p>
-            <p>Efter många år av att lägga all min energi och tid på att som ensamstående få min och mina fem barns neurodivergenta vardag att gå runt så är jag nu framme vid en milstolpe i mitt liv.</p>
-            <p><em>Äntligen</em> vet jag vad jag vill bli när jag blir stor, eller i alla fall inom vilken bransch.</p>
-            <p>Jag får ofta höra att jag är bra på att: tänka utanför boxen, se detaljer, tydliggörande layout, formulera mig i skrift och vara kreativ.</p>
-
-        </div>
-
-        
-
-    </article>
-
-    <!--Footer-->
-    <footer>
-
-        <!--Div, flexbox, unordered list, icons that are links-->
-        <div class="flex-container">
-
-            <ul>
-                
-                <li><button><a href="mailto:w.grapenholt@gmail.com" target=":_blank"><i class="fas fa-at"></i></a></button></li>
-                <li><button><a href="https://github.com/WiviWonderWoman" target="_blank"><i class="fab fa-github-alt"></i></a></button></li>
-                <li><button><a href="https://www.linkedin.com/in/wivianne-grapenholt-673b701b6/" target="_blank"><i class="fab fa-linkedin"></i></a></button></li>
-                <li><button><a href="https://www.instagram.com/wivianne_grapenholt/" target="_blank"><i class="fab fa-instagram"></i></a></button></li>
-                <li><button><a href="https://www.facebook.com/wivi.grapenholt" target="_blank"><i class="fab fa-facebook"></i></a></button></li>
-            </ul>
-        </div>
-
-    <!--Copyright info-->
-    <p id="copy"><span> "WiviWonderWoman" </span><br/>&copy; Wivianne Grapenholt</p>
-
-    </footer>
-<script src="./script.js"></script>
-</body>
-
+        <!--Copyright info-->
+        <p id="copy"><span> "WiviWonderWoman" </span><br/>&copy; Wivianne Grapenholt</p>
+        </footer>
+    <script src="./script.js"></script>
+    </body>
 </html>
