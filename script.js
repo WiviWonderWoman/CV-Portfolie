@@ -98,7 +98,7 @@ document.getElementById('content'). innerHTML = ` <h2>Ideella Uppdrag</h2>
 });
 document.getElementById('hobbies').addEventListener('click', function(){
 document.getElementById('content'). innerHTML = `<h2>Intressen</h2>
-        <p>Jag brinner för att sprida kunskap och motverka alla former av diskriminering och exkludering i samhället. Varmast om hjärtat ligger feminism och ableism (funkofobi)och i synnerhet neuropsykiatriska-funktionsvarianter. Jag älskar att lära mig nya saker och delar gärna med mig av min kunskap till min omgivning.</p>
+        <p>Jag brinner för att sprida kunskap och motverka alla former av diskriminering och exkludering i samhället. Varmast om hjärtat ligger feminism och ableism (funkofobi) och i synnerhet neuropsykiatriska-funktionsvarianter. Jag älskar att lära mig nya saker och delar gärna med mig av min kunskap till min omgivning.</p>
         <p>Att skapa med garn/textil är en passion och på senare tid har det blivit mycket virkande. Inte efter färdiga mönster utan jag skapar på frihand. Här ser du några exempel. De två första bilderna är avbilder av min äldsta dotter och hennes man. Jag tillverkade dom till deras bröllop sommaren 2019. Den sista bilden föreställer min äldsta son när han tog studenten 2020, restaurang och livsmedel. Är du intresserad av att se mer så är du välkommen att kolla på Instagram.</p>    
 
         <!--Div, flexbox for displaying images-->
@@ -123,24 +123,20 @@ document.getElementById('portfolio').addEventListener('click', function(){
     fetch('https://api.github.com/users/WiviWonderWoman/repos')
     .then(resp => resp.json())
     .then(data => gitHub(data))
-
+    let arrGit = [];
     function gitHub(data) {(data);
             arrGit = data;
-            console.log(arrGit);
             arrGit.forEach(element => {
             document.getElementById('github').insertAdjacentHTML ("afterbegin", `<button id="knapp"></button>`);
             document.getElementById('knapp').insertAdjacentHTML("afterbegin",`<a href="`+element.html_url+`"target="_blank">`+element.name+`</a>`)
         }); 
 }  
-        document.getElementById('content'). innerHTML = `<div class="flex-container" id="github"></div>`
+        document.getElementById('content'). innerHTML = `<h2>Här är länkar till några av mina repos på GitHub</h2><div class="flex-container" id="github"></div>`
     });
 
-let arrGit = [];
+document.getElementById('contact').addEventListener('click', function() {
 
-
-
-
-
- // console.log(element.html_url);
- // console.log(element.name);       
+    document.getElementById('content'). innerHTML = `<h2>Här nedan ser du länkar olika plattformar där jag finns.</h2><p>Tyvärr fungerar inte mail länken ännu.</p>`
+});
+    
 
