@@ -85,6 +85,7 @@ img {
 table {
     width: 80%;
     margin: auto;
+    margin-bottom: 20px;
     color: cornsilk;
     font-family: 'Amatic SC';
     font-size: 1.2em;
@@ -138,20 +139,26 @@ i {
     border: cornsilk solid 2px;
     border-radius: 10%;
     background-color: rgb(38, 39, 41);
-}
-/*changes buttons when hoover*/ 
-.flex-container ul li button:hover {
-    background-color: cornsilk;
-}
-/*link text, color, no underline*/
-.flex-container a {
     color: cornsilk;
     font-family: 'Amatic SC';
     font-size: 2em;
     text-decoration: none;
 }
+/*changes buttons when hoover*/ 
+.flex-container ul li button:hover {
+    background-color: cornsilk;
+    color: black;
+}
+/* link text, color, no underline */
+.flex-container a {
+    color: cornsilk;
+    font-family: 'Amatic SC';
+    /* font-size: 2em; */
+    text-decoration: none;
+}
 /*changes link text when hoover*/
 .flex-container a:hover {
+    background-color: cornsilk;
     color: black;
 }
 /*Images, rouded corners, flex, wrap*/
