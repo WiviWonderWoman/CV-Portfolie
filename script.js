@@ -7,21 +7,20 @@ document.getElementById('Presentation').addEventListener('click', function(){
     <p><em>Äntligen</em> vet jag vad jag vill bli när jag blir stor, eller i alla fall inom vilken bransch.</p>
     <p>Jag får ofta höra att jag är bra på att: tänka utanför boxen, se detaljer, tydliggörande layout, formulera mig i skrift och vara kreativ.</p>`
 });
-document.getElementById('edu').addEventListener('click', function(){
-    content. innerHTML = `<h2>Utbildningar</h2><table><tr><td>Webbutveckling inom .NET</td><td>Campus Värnamo</td><td>2020</td><td>2022</td></tr>
+document.getElementById('cv').addEventListener('click', function(){
+    content. innerHTML = `<h2>Utbildningar</h2>
+    <table><tr><td>Webbutveckling inom .NET</td><td>Campus Värnamo</td><td>2020</td><td>2022</td></tr>
     <tr><td>Programmering 1</td><td rowspan="3">Hermods</td><td rowspan="3" colspan="2">2020</td>
     </tr><tr><td>Matematik 2a</td></tr><tr><td>Webbutveckling 1</td></tr> 
     <tr><td>Larmtekninker</td><td>Lernia</td><td>avbruten</td><td>2008</td></tr> 
     <tr><td>Koplettering, tredje året</td><td>Komvux</td><td colspan="2">2006</td></tr>  
-    <tr><td>Vård & omsorg</td><td>Petri Vårdgymnasium</td><td>1992</td><td>1993</td></tr></table>`
-});
- document.getElementById('work').addEventListener('click', function(){
-    content. innerHTML = `<h2>Arbetslivserfarenhet</h2><table><tr><td rowspan="2">Lokalvårdare</td><td>Sans & Balans</td><td>2015</td><td>2016</td></tr> 
+    <tr><td>Vård & omsorg</td><td>Petri Vårdgymnasium</td><td>1992</td><td>1993</td></tr></table>
+    <h2>Arbetslivserfarenhet</h2><table><tr><td rowspan="2">Lokalvårdare</td><td>Sans & Balans</td><td>2015</td><td>2016</td></tr> 
     <tr><td>Tydingesjöns Camping</td><td colspan="2">2011</td></tr> 
     <tr><td rowspan="2">Undersköterska</td><td>Markaryds kommun</td><td colspan="2">2007</td></tr> 
     <tr><td>Östra Göinge Kommun</td><td colspan="2">2005</td></tr>     
     <tr><td>Industriarbetare</td><td>Höganäs Keramik AB</td><td>1998</td><td>2004</td>
-    </tr><td>Labratoriediskare</td><td>KM Labratorierna AB</td><td>1990</td><td>1991</td></tr></table>` 
+    </tr><td>Labratoriediskare</td><td>KM Labratorierna AB</td><td>1990</td><td>1991</td></tr></table>`
 });
 document.getElementById('ideellt').addEventListener('click', function(){
     content. innerHTML = `<h2>Ideella Uppdrag & Oavlönat arbete</h2><p>Som ensamstående förälder till fem barn (födda 1996, 1999, 2000, 2006 samt 2008), nästan alla har vi olika grad av funktionsvarianter så är jag van att ha många bollar i luften. Jag brukar lite skämtsamt säga att jag har många bisysslor: specialpedagog, samordnare, metodhandledare, debattör, sekreterare, dietist, arbetsterapeut, medlare, processhandledare, jurist, ekonomiassistent och städerska… Jag har genom åren gått alla patient- och anhörigutbildningar, alla ålders kategorier, som Region Skåne erbjuder för angående adhd och autism. Vilket har gett mig mycket kunskap i olika strategier för både kognitiva och exekutiva svårigheter och på köpet om hur hjärnan fungerar i allmänhet.</p>

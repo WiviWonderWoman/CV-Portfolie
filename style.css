@@ -15,8 +15,8 @@ header, nav, article, footer {
     border-radius: 10px;
     background-color: black;
 }
-article, footer { 
-    padding: 10px;
+article { 
+    padding: 30px;
 }
 header, footer {
     justify-content: center;
@@ -26,6 +26,7 @@ header {
 }
 footer {
     margin-bottom: 20px;
+    padding: 10px;
 }
 /*Headings*/
 h1{ 
@@ -40,17 +41,6 @@ h2 {
     font-size: 2em;
     text-decoration: none;
     text-align: center;
-}
-/*media rules, large screens will show tables side by side*/
-@media only screen and (min-width: 1000px) {
-    #education, #workExp {
-        width: 50%;
-       float: left;
-       margin-bottom: 20px;
-    }
-    #volunteering {
-        clear: both;
-    }
 }
 /*media rules for h1 size on smaller screens*/
  @media only screen and (max-width: 600px) {
@@ -91,7 +81,7 @@ span {
 }
 /*icons*/
 i {
-    font-size: 3ex;
+    font-size: 2ex;
     font-weight: lighter;
 }
 /*smaler text for copyright*/
