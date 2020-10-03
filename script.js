@@ -49,9 +49,14 @@ document.getElementById('portfolio').addEventListener('click', function(){
         arrGit.forEach(element => { 
             document.getElementById('github').insertAdjacentHTML ("afterbegin", `<button id="knapp"></button>`);
             document.getElementById('knapp').insertAdjacentHTML("afterbegin",`<a href="`+element.html_url+`"target="_blank">`+element.name+`</a>`)
-        })   
-    }    
+        })  
+        document.getElementById('github').insertAdjacentHTML ("beforeend", `<button id="knapp"><a href="./stader-lander-WiviWonderWoman/index.html" target="_blank">demo</a></button>`);
+    // document.getElementById('knapp').insertAdjacentHTML("afterbegin",``) 
+    }
+    
+       
     content. innerHTML = `<h2>Här är länkar till några av mina repos på GitHub</h2><div class="flex-container" id="github"></div>`
+
 });
 document.getElementById('contact').addEventListener('click', function() {
     content. innerHTML = `<h2>Här nedan ser du länkar olika plattformar där jag finns.</h2><p>Tyvärr fungerar inte mail länken ännu.</p>`
