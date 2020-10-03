@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(78, 84, 84);
+    color: cornsilk;
+    font-family: 'Amatic SC';
+}
+
+header, nav, article, footer {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border: cornsilk solid 1px;
+    border-radius: 10px;
+    background-color: black;
+    justify-content: center;
+}
+/*Headings*/
+h1{ 
+    margin: auto;   
+    font-size: 3em;
+    justify-content: center;
+    display: flex; 
+    padding: 20px; 
+}
+h2 {
+    margin-bottom: 20px;   
+    justify-content: center;
+    padding: 20px;  
+} 
+#stad, #besökta {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;   
+    justify-content: center;
+    border-radius: 10px;
+    width: 80%;
+    background-color: cornsilk;
+    color: black;
+    padding: 30px;  
+}
+.flex-container{
+    display: flex; 
+    justify-content: center;
+} 
+.flex-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+} 
+#landMeny {
+    width: 75%;
+}
+#besöktMeny {
+    width: 25%;
+}    
+.flex-container ul li {
+    flex: grow;
+}  
+.flex-container button{
+    font-family: 'Amatic SC';
+    font-size: 1.5em;
+    color: cornsilk;
+    margin: 5px;
+    border: cornsilk solid 2px;
+    border-radius: 10%;
+    background-color: rgb(38, 39, 41);
+}
+.flex-container ul li button:hover {
+    background-color: cornsilk;
+    color: black;
+}
+#visited {
+    background-color: rgb(68, 231, 139);
+    color: black;
+}
+#visited:hover {
+    background-color: green ;
+    color: cornsilk;
+} 
+#spara {
+    background-color: rgb(68, 231, 139);
+    color: black; 
+    margin: 20px;
+}
+#spara:hover {
+    background-color: green ;
+    color: cornsilk;
+} 
+#rensa {
+    background-color: salmon;
+    color: black;
+}
+#rensa:hover {
+    background-color: darkred;
+    color: cornsilk;
+}
+

@@ -50,7 +50,7 @@ document.getElementById('portfolio').addEventListener('click', function(){
             document.getElementById('github').insertAdjacentHTML ("afterbegin", `<button id="knapp"></button>`);
             document.getElementById('knapp').insertAdjacentHTML("afterbegin",`<a href="`+element.html_url+`"target="_blank">`+element.name+`</a>`)
         })  
-        document.getElementById('github').insertAdjacentHTML ("beforeend", `<button id="knapp"><a href="./stader-lander-WiviWonderWoman/index.html" target="_blank">demo</a></button>`);
+        document.getElementById('github').insertAdjacentHTML ("beforeend", `<button id="knapp"><a href="./demo/index.html" target="_blank">demo</a></button>`);
     // document.getElementById('knapp').insertAdjacentHTML("afterbegin",``) 
     }
     
