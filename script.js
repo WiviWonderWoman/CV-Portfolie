@@ -59,5 +59,5 @@ document.getElementById('portfolio').addEventListener('click', function(){
 
 });
 document.getElementById('contact').addEventListener('click', function() {
-    content. innerHTML = `<h2>Här nedan ser du länkar olika plattformar där jag finns.</h2><p>Tyvärr fungerar inte mail länken ännu.</p>`
+    content. innerHTML = `<h2>Här nedan ser du länkar olika plattformar där jag finns.</h2>`
 });
