@@ -1,4 +1,4 @@
-# CV-Portfolie
+# CV-Portfolie (MVP-kursen)
 Nu ska du skapa ett CV till dig själv. Du har helt fria händer när det kommer till designval samt ramverk och bibliotek. Men utnyttja det du lärt dig under den här veckan.
 När det är dags för dig att börja söka LIA-plats och senare jobb så är ett CV ofta det första intryck du gör med framtida arbetsgivare så se till att allt ser snyggt ut, testa i mobilen och lägg lite tid på att skapa en modern känsla!
 
