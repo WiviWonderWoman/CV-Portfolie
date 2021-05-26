@@ -1,6 +1,14 @@
-# CV-Portfolie - Webbapplikation MVP - september 2020
+# Inlämningsuppgift CV-Portfolie
 100/100 (VG)
-## Uppgift
+## Webbapplikation MVP - september 2020
+
+### Läranderesultat
+1. redogöra för hur HTML, CSS och Javascript samverkar i en webbläsare
+2. utveckla och utforma klientsidan av statiska och dynamiska webbsidor för exempelvis en enklare företagssida
+3. tillämpa lämpliga metoder, tekniker och verktyg för effektiv mjukvaruutveckling
+4. konfigurera och använda en enklare lokal utvecklingsmiljö för webbutvecklingsprojekt
+berörs till viss del.
+### Uppgift
 Nu ska du skapa ett CV till dig själv. Du har helt fria händer när det kommer till designval samt ramverk och bibliotek. Men utnyttja det du lärt dig under den här veckan.
 När det är dags för dig att börja söka LIA-plats och senare jobb så är ett CV ofta det första intryck du gör med framtida arbetsgivare så se till att allt ser snyggt ut, testa i mobilen och lägg lite tid på att skapa en modern känsla!
 
